@@ -1,0 +1,7 @@
+[Unit]
+Description=Portfoliosivun palvelintila (status.json)
+
+[Service]
+Type=oneshot
+User=toivaneatte
+ExecStart=/home/toivaneatte/portfolio/portfolio-status.sh

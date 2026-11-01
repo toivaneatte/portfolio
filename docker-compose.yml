@@ -1,0 +1,18 @@
+services:
+  portfolio:
+    container_name: portfolio
+    image: nginx:1.29-alpine
+    restart: unless-stopped
+    # Vain serverin sisälle: Cloudflare Tunnel hakee sivun täältä
+    ports:
+      - 127.0.0.1:8085:8080
+    volumes:
+      - ./site:/usr/share/nginx/html:ro
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    read_only: true
+    tmpfs:
+      - /var/cache/nginx
+      - /var/run
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
