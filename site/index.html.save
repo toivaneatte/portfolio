@@ -1,0 +1,538 @@
+35;98;39M35;97;38M35;96;35M35;96;26M35;96;21M35;96;20M35;97;20M35;97;18M35;98;18M35;99;18M35;102;20M35;106;22M35;115;26M64;115;26M64;115;26M64;115;26M64;115;26M64;115;26M64;115;26M64;115;26M64;115;26M64;115;26M64;115;26M64;115;26M64;115;26M64;115;26M64;115;26M64;115;26M64;115;26M64;115;26M64;115;26M64;115;26M64;115;26M64;115;26M64;115;26M35;117;25M35;120;23M35;127;21M35;140;17M35;153;14M35;163;13M35;177;11M35;182;11M35;186;11M35;187;11M35;187;10M35;188;10M35;192;7M35;196;5M35;198;3M35;199;2M35;200;2M35;203;2M35;203;50M35;203;2M35;204;2M35;203;2M35;202;3M35;201;4M35;200;4M35;199;4M35;199;5M35;199;6M35;199;7M35;198;8M35;198;9M64;198;9M64;198;9M64;198;9M64;198;9M64;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M64;198;9M64;198;9M64;198;9M64;198;9M64;198;9M64;198;9M64;198;9M64;198;9M64;198;9M64;198;9M64;198;9M64;198;9M64;198;9M64;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M65;198;9M64;198;9M64;198;9M64;198;9M64;198;9M64;198;9M64;198;9M64;198;9M64;198;9M64;198;9M64;198;9M64;198;9M64;198;9M65;198;9M65;198;9M35;198;8M35;197;8M35;196;7M35;195;6M35;194;5M35;193;5M35;192;5M35;191;4M35;190;4M35;190;3M35;189;3M35;189;2M35;190;2M35;191;2M35;192;2M35;193;2M35;194;1M35;195;1M35;196;1M35;197;1M35;198;1M35;199;1M35;200;1M35;176;1M35;176;50M35;176;1<!doctype html>
+<html lang="fi" data-lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Atte Toivanen</title>
+  <meta name="description" content="Tietojenkäsittelytieteiden opiskelija Tampereen yliopistosta. Ohjelmistokehitystä, palvelinten ylläpitoa ja kyberturvallisuutta.">
+  <meta name="theme-color" content="#008080">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/pixelify-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/source-serif-4-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Pikseli-ikonit (16 × 16) ja ikkunanappien merkit -->
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-computer" viewBox="0 0 16 16" shape-rendering="crispEdges">
+      <path fill="#000" d="M2 1h12v10H2z"/><path fill="#c0c0c0" d="M3 2h10v8H3z"/><path fill="#000080" d="M4 3h8v6H4z"/>
+      <path fill="#1084d0" d="M4 3h8v2H4z"/><path fill="#808080" d="M6 11h4v2H6z"/><path fill="#000" d="M3 13h10v2H3z"/><path fill="#c0c0c0" d="M4 13h8v1H4z"/>
+    </symbol>
+    <symbol id="i-dos" viewBox="0 0 16 16" shape-rendering="crispEdges">
+      <path fill="#000" d="M1 2h14v12H1z"/><path fill="#c0c0c0" d="M1 2h14v2H1z"/><path fill="#000080" d="M2 2h9v2H2z"/>
+      <path fill="#c0c0c0" d="M3 6h1v1H3zM4 7h1v1H4zM3 8h1v1H3zM6 8h4v1H6z"/>
+    </symbol>
+    <symbol id="i-folder" viewBox="0 0 16 16" shape-rendering="crispEdges">
+      <path fill="#000" d="M1 3h5l1 1h8v10H1z"/><path fill="#ffff9c" d="M2 4h4l1 1h7v1H2z"/><path fill="#f0c048" d="M2 6h12v7H2z"/><path fill="#c08000" d="M2 12h12v1H2z"/>
+    </symbol>
+    <symbol id="i-doc" viewBox="0 0 16 16" shape-rendering="crispEdges">
+      <path fill="#000" d="M3 1h7l3 3v11H3z"/><path fill="#fff" d="M4 2h5v3h3v9H4z"/><path fill="#808080" d="M10 2l2 2h-2z"/>
+      <path fill="#000080" d="M5 6h6v1H5zM5 8h6v1H5zM5 10h6v1H5zM5 12h4v1H5z"/>
+    </symbol>
+    <symbol id="i-app" viewBox="0 0 16 16" shape-rendering="crispEdges">
+      <path fill="#000" d="M1 2h14v12H1z"/><path fill="#c0c0c0" d="M2 5h12v8H2z"/><path fill="#000080" d="M2 3h12v2H2z"/><path fill="#fff" d="M3 6h10v6H3z"/>
+      <path fill="#008080" d="M4 7h3v4H4z"/><path fill="#808080" d="M8 7h4v1H8zM8 9h4v1H8z"/>
+    </symbol>
+    <symbol id="i-gear" viewBox="0 0 16 16" shape-rendering="crispEdges">
+      <path fill="#000" d="M6 1h4v2h2v1h1v2h2v4h-2v2h-1v1h-2v2H6v-2H4v-1H3v-2H1V6h2V4h1V3h2z"/>
+      <path fill="#c0c0c0" d="M7 2h2v2h2v1h1v2h2v2h-2v2h-1v1H9v2H7v-2H5v-1H4V9H2V7h2V5h1V4h2z"/><path fill="#000" d="M6 6h4v4H6z"/><path fill="#808080" d="M7 7h2v2H7z"/>
+    </symbol>
+    <symbol id="i-cards" viewBox="0 0 16 16" shape-rendering="crispEdges">
+      <path fill="#000" d="M1 3h10v12H1z"/><path fill="#fff" d="M2 4h8v10H2z"/><path fill="#000" d="M5 1h10v12h-4V3H5z"/><path fill="#ffffe1" d="M6 2h8v10h-3V3H6z"/>
+      <path fill="#000080" d="M3 6h6v1H3zM3 8h6v1H3zM3 10h4v1H3z"/>
+    </symbol>
+    <symbol id="i-mail" viewBox="0 0 16 16" shape-rendering="crispEdges">
+      <path fill="#000" d="M1 3h14v10H1z"/><path fill="#fff" d="M2 4h12v8H2z"/><path fill="#808080" d="M2 4h1v1h1v1h1v1h1v1h4V7h1V6h1V5h1V4h1v1h-1v1h-1v1h-1v1h-1v1H6V8H5V7H4V6H3V5H2z"/>
+    </symbol>
+    <symbol id="i-bulb" viewBox="0 0 16 16" shape-rendering="crispEdges">
+      <path fill="#000" d="M5 1h6v1h1v1h1v5h-1v1h-1v2H5V9H4V8H3V3h1V2h1z"/><path fill="#ffff00" d="M5 2h6v1h1v5h-1v1h-1v1H6V9H5V8H4V3h1z"/>
+      <path fill="#fff" d="M6 3h2v1H6zM5 4h1v2H5z"/><path fill="#808080" d="M5 11h6v1H5zM5 13h6v1H5z"/><path fill="#000" d="M6 12h4v1H6zM6 14h4v1H6z"/>
+    </symbol>
+    <symbol id="i-wand" viewBox="0 0 16 16" shape-rendering="crispEdges">
+      <path fill="#000" d="M1 13h1v-1h1v-1h1v-1h1V9h1V8h1V7h1v1h1v1H8v1H7v1H6v1H5v1H4v1H3v1H2v-1H1z"/>
+      <path fill="#fff" d="M2 13h1v-1h1v-1h1v-1h1V9h1V8h1v1H7v1H6v1H5v1H4v1H3v1H2z"/>
+      <path fill="#ffff00" d="M11 1h1v2h2v1h-2v2h-1V4H9V3h2zM14 7h1v1h-1zM7 1h1v1H7zM14 10h1v1h-1z"/>
+      <path fill="#c08000" d="M11 3h1v1h-1z"/>
+    </symbol>
+    <symbol id="g-min" viewBox="0 0 8 7" shape-rendering="crispEdges"><path d="M1 5h6v2H1z"/></symbol>
+    <symbol id="g-max" viewBox="0 0 9 9" shape-rendering="crispEdges"><path d="M0 0h9v9H0zM1 2v6h7V2z"/></symbol>
+    <symbol id="g-restore" viewBox="0 0 9 9" shape-rendering="crispEdges"><path d="M2 0h7v6H8V2H2zM0 3h7v6H0zM1 5v3h5V5z"/></symbol>
+    <symbol id="g-close" viewBox="0 0 8 7" shape-rendering="crispEdges"><path d="M0 0h2v1h1v1h2V1h1V0h2v1H7v1H6v1H5v1h1v1h1v1h1v1H6V6H5V5H3v1H2v1H0V6h1V5h1V4h1V3H2V2H1V1H0z"/></symbol>
+  </svg>
+
+  <a class="skip" href="#projektit"><span lang="fi">Siirry projekteihin</span><span lang="en">Skip to projects</span></a>
+
+  <main class="desktop">
+
+    <!-- Tervetuloa-ikkuna -->
+    <section id="tervetuloa" class="window win-welcome" data-window aria-label="Atte Toivanen">
+      <div class="titlebar">
+        <svg class="ico" aria-hidden="true"><use href="#i-computer"/></svg>
+        <p class="title"><span lang="fi">Tervetuloa</span><span lang="en">Welcome</span></p>
+        <div class="controls">
+          <button class="ctl" type="button" data-action="min"><svg aria-hidden="true"><use href="#g-min"/></svg><span class="vh"><span lang="fi">Pienennä</span><span lang="en">Minimise</span></span></button>
+          <button class="ctl" type="button" data-action="max"><svg aria-hidden="true"><use href="#g-max"/></svg><span class="vh"><span lang="fi">Suurenna</span><span lang="en">Maximise</span></span></button>
+          <button class="ctl ctl-close" type="button" data-action="close"><svg aria-hidden="true"><use href="#g-close"/></svg><span class="vh"><span lang="fi">Sulje</span><span lang="en">Close</span></span></button>
+        </div>
+      </div>
+      <div class="window-body welcome">
+        <div class="welcome-main">
+          <h1>Atte Toivanen</h1>
+          <p class="lede">
+            <span lang="fi">Tietojenkäsittelytieteiden neljännen vuoden opiskelija Tampereen yliopistosta. Kirjoitan ohjelmistoja C++:lla, ja Pythonilla, ylläpidän omaa Linux-palvelinta ja teen kandidaatintutkielmaa kyberturvallisuudesta.</span>
+            <span lang="en">Third-year Computer Science student at Tampere University. I write software in C++, Python and TypeScript, run my own Linux server and am writing my bachelor’s thesis on cybersecurity.</span>
+          </p>
+          <div class="tip">
+            <svg class="ico ico-lg" aria-hidden="true"><use href="#i-bulb"/></svg>
+            <div>
+              <p class="tip-head"><span lang="fi">Tiesitkö?</span><span lang="en">Did you know?</span></p>
+              <p class="looking">
+                <span lang="fi">Etsin kesätyö- tai harjoittelupaikkaa ohjelmistokehityksestä, palvelinympäristöistä tai tietoturvasta.</span>
+                <span lang="en">I’m looking for a summer job or internship in software development, infrastructure or security.</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="welcome-actions">
+          <a class="btn btn-default" href="#projektit" data-open="projektit"><span lang="fi">Projektit</span><span lang="en">Projects</span></a>
+          <a class="btn" href="#yhteys" data-open="yhteys"><span lang="fi">Yhteystiedot</span><span lang="en">Contact</span></a>
+          <button class="btn" type="button" data-lang-toggle><span lang="fi">In English</span><span lang="en">Suomeksi</span></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Komentokehote: miten sivu kulki lukijalle -->
+    <section id="reitti" class="window win-dos" data-window aria-labelledby="route-title">
+      <div class="titlebar">
+        <svg class="ico" aria-hidden="true"><use href="#i-dos"/></svg>
+        <h2 id="route-title" class="title">
+          <span lang="fi">Näin tämä sivu tuli luoksesi</span>
+          <span lang="en">How this page reached you</span>
+        </h2>
+        <div class="controls">
+          <button class="ctl" type="button" data-action="min"><svg aria-hidden="true"><use href="#g-min"/></svg><span class="vh"><span lang="fi">Pienennä</span><span lang="en">Minimise</span></span></button>
+          <button class="ctl" type="button" data-action="max"><svg aria-hidden="true"><use href="#g-max"/></svg><span class="vh"><span lang="fi">Suurenna</span><span lang="en">Maximise</span></span></button>
+          <button class="ctl ctl-close" type="button" data-action="close"><svg aria-hidden="true"><use href="#g-close"/></svg><span class="vh"><span lang="fi">Sulje</span><span lang="en">Close</span></span></button>
+        </div>
+      </div>
+      <div class="window-body">
+        <div class="term" id="term">
+          <p class="term-line prompt" aria-hidden="true">C:\&gt;tracert atte.toivanen</p>
+          <ol class="hops">
+            <li class="term-line hop">
+              <span class="hop-name"><span lang="fi">Selaimesi</span><span lang="en">Your browser</span></span>
+              <span class="hop-detail">HTTPS</span>
+            </li>
+            <li class="term-line hop">
+              <span class="hop-name">Cloudflare</span>
+              <span class="hop-detail"><span lang="fi">TLS ja välimuisti</span><span lang="en">TLS and caching</span></span>
+            </li>
+            <li class="term-line hop">
+              <span class="hop-name"><span lang="fi">Salattu tunneli</span><span lang="en">Encrypted tunnel</span></span>
+              <span class="hop-detail"><span lang="fi">ei avattuja portteja</span><span lang="en">no open ports</span></span>
+            </li>
+            <li class="term-line hop hop-home">
+              <span class="hop-name"><span lang="fi">Kotiserveri, Tampere</span><span lang="en">Home server, Tampere</span></span>
+              <span class="hop-detail">Ubuntu Server, nginx</span>
+            </li>
+          </ol>
+          <p class="term-line" aria-hidden="true"><span lang="fi">Reitti valmis.</span><span lang="en">Trace complete.</span></p>
+
+          <div class="term-block" id="server-status" hidden>
+            <p class="term-line prompt" aria-hidden="true">C:\&gt;uptime</p>
+            <p class="term-line">
+              <span lang="fi">Serveri on ollut päällä <strong data-uptime></strong>.</span>
+              <span lang="en">The server has been up for <strong data-uptime></strong>.</span>
+            </p>
+            <p class="term-line backup-line" hidden>
+              <span lang="fi">Viimeisin automaattinen varmuuskopio onnistui <strong data-backup></strong>.</span>
+              <span lang="en">The last automatic backup succeeded <strong data-backup></strong>.</span>
+            </p>
+          </div>
+
+          <p class="term-line prompt" aria-hidden="true">C:\&gt;type <span lang="fi">LUEMINUT.TXT</span><span lang="en">README.TXT</span></p>
+          <p class="term-line">
+            <span lang="fi">Palvelin on vanha kannettava, jolle olen rakentanut mediapalvelimen, mainosten eston, salatut varmuuskopiot ja valvonnan. Tämä sivu on yksi sen palveluista.</span>
+            <span lang="en">The server is an old laptop that I’ve turned into a media server with network-wide ad blocking, encrypted backups and monitoring. This page is one of its services.</span>
+          </p>
+          <p class="term-line prompt" aria-hidden="true">C:\&gt;<span class="cursor"></span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projektit: resurssienhallinta -->
+    <section id="projektit" class="window win-projects" data-window aria-labelledby="projects-title">
+      <div class="titlebar">
+        <svg class="ico" aria-hidden="true"><use href="#i-folder"/></svg>
+        <h2 id="projects-title" class="title"><span lang="fi">Projektit</span><span lang="en">Projects</span></h2>
+        <div class="controls">
+          <button class="ctl" type="button" data-action="min"><svg aria-hidden="true"><use href="#g-min"/></svg><span class="vh"><span lang="fi">Pienennä</span><span lang="en">Minimise</span></span></button>
+          <button class="ctl" type="button" data-action="max"><svg aria-hidden="true"><use href="#g-max"/></svg><span class="vh"><span lang="fi">Suurenna</span><span lang="en">Maximise</span></span></button>
+          <button class="ctl ctl-close" type="button" data-action="close"><svg aria-hidden="true"><use href="#g-close"/></svg><span class="vh"><span lang="fi">Sulje</span><span lang="en">Close</span></span></button>
+        </div>
+      </div>
+      <div class="window-body">
+        <div class="address" aria-hidden="true">
+          <span class="address-label"><span lang="fi">Osoite</span><span lang="en">Address</span></span>
+          <span class="field address-field"><svg class="ico" aria-hidden="true"><use href="#i-folder"/></svg>C:\Atte\<span lang="fi">Projektit</span><span lang="en">Projects</span></span>
+        </div>
+
+        <div class="pane">
+          <article class="project">
+            <header class="project-head">
+              <svg class="ico ico-lg" aria-hidden="true"><use href="#i-computer"/></svg>
+              <div>
+                <h3><span lang="fi">Kotiserveri</span><span lang="en">Home server</span></h3>
+                <p class="meta"><span lang="fi">Oma projekti, 2026</span><span lang="en">Personal project, 2026</span></p>
+              </div>
+            </header>
+            <div class="project-body">
+              <p>
+                <span lang="fi">Muutin vanhan kannettavan Ubuntu-palvelimeksi, joka pyörittää mediapalvelinta, kuvien varmuuskopiointia ja omia sovelluksiani. Hallintapaneelit näkyvät vain WireGuard-pohjaisen VPN:n kautta, palomuuri rajaa kotiverkon pääsyn ja SSH toimii vain avaimilla. Kotiverkossa erilaisia houkuttimia, joiden hälytykset tulevat puhelimeen itse kirjoittamani käsittelijän kautta.</span>
+                <span lang="en">I turned an old laptop into an Ubuntu server that runs a media server, photo backup and my own applications. Admin interfaces are reachable only through a WireGuard-based VPN, a firewall limits home-network access and SSH accepts keys only. A honeypot watches the home network and sends alerts to my phone through a handler I wrote.</span>
+              </p>
+              <p>
+                <span lang="fi">Kirjoitin Bash-skriptit, jotka varmuuskopioivat asetukset ja tietokannat salattuina pilveen joka yö ja tarkistavat palvelut kahden minuutin välein. Hälytys lähtee vain tilan muuttuessa, jotta ilmoituksiin voi luottaa.</span>
+                <span lang="en">I wrote Bash scripts that back up configuration and databases, encrypted, to cloud storage every night and check the services every two minutes. Alerts fire only on state changes so that notifications stay trustworthy.</span>
+              </p>
+              <ul class="tags">
+                <li>Linux</li><li>Docker</li><li>Bash</li><li>Python</li><li>Tailscale</li><li>UFW</li><li>restic</li><li>AdGuard Home</li><li>OpenCanary</li><li>Cloudflare Tunnel</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project">
+            <header class="project-head">
+              <svg class="ico ico-lg" aria-hidden="true"><use href="#i-app"/></svg>
+              <div>
+                <h3>Salitreeni</h3>
+                <p class="meta"><span lang="fi">Oma projekti, 2026</span><span lang="en">Personal project, 2026</span></p>
+              </div>
+            </header>
+            <div class="project-body">
+              <p>
+                <span lang="fi">Treenipäiväkirja, jota käytän omissa salitreeneissäni. C++20-taustapalvelu tarjoaa REST-rajapinnan ja tallentaa sarjat SQLiteen. Puhelimen kotinäytölle asennettava käyttöliittymä näyttää edellisen kerran tulokset, tunnistaa ennätykset heti sarjan kirjauksessa ja piirtää kehityksen kuvaajiksi ilman ulkoisia kirjastoja.</span>
+                <span lang="en">A workout log I use for my own gym training. A C++20 backend serves a REST API and stores sets in SQLite. The installable phone interface shows last session’s results, detects personal records as soon as a set is logged and draws progress charts without external libraries.</span>
+              </p>
+              <ul class="tags">
+                <li>C++20</li><li>SQLite</li><li>REST</li><li>JavaScript</li><li>PWA</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project">
+            <header class="project-head">
+              <svg class="ico ico-lg" aria-hidden="true"><use href="#i-app"/></svg>
+              <div>
+                <h3><span lang="fi">Tampereen pysäköintikartta</span><span lang="en">Tampere parking map</span></h3>
+                <p class="meta"><span lang="fi">Ryhmätyö, Software Design, 2026</span><span lang="en">Group project, Software Design, 2026</span></p>
+              </div>
+            </header>
+            <div class="project-body">
+              <p>
+                <span lang="fi">Karttasovellus, joka arvioi keskustan pysäköintialueiden käyttöastetta yhdistämällä Tampereen kaupungin, Digitrafficin ja Ilmatieteen laitoksen avointa dataa. Vastaan käyttöliittymän suunnittelusta ja toteutuksesta MVC-arkkitehtuurilla sekä osasta suunnitteludokumenttia.</span>
+                <span lang="en">A map application that estimates city-centre parking occupancy by combining open data from the City of Tampere, Digitraffic and the Finnish Meteorological Institute. I’m responsible for the UI design and its MVC implementation, and co-authored the design document.</span>
+              </p>
+              <ul class="tags">
+                <li>C++</li><li>MVC</li><li>OpenStreetMap</li><li><span lang="fi">Avoin data</span><span lang="en">Open data</span></li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project">
+            <header class="project-head">
+              <svg class="ico ico-lg" aria-hidden="true"><use href="#i-app"/></svg>
+              <div>
+                <h3>Tuulikartta</h3>
+                <p class="meta"><span lang="fi">Ryhmätyö, software engineering project TUNI, 2026</span><span lang="en">Group project, software engineering project TUNI, 2026</span></p>
+              </div>
+            </header>
+            <div class="project-body">
+              <p>
+                <span lang="fi">Suomen tuuli- ja sääkartta, johon integroitiin säteily-, kelikamera- ja geomagneettista dataa STUKin, Digitrafficin ja Ilmatieteen laitoksen rajapinnoista. </span>
+                <span lang="en">A Finnish wind and weather map that integrates radiation, road-camera and geomagnetic data from STUK, Digitraffic and FMI APIs.</span>
+              </p>
+              <ul class="tags">
+                <li>JavaScript</li><li>Leaflet</li><li>PHP</li><li>Docker</li><li>GitHub Actions</li><li>AlmaLinux</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project">
+            <header class="project-head">
+              <svg class="ico ico-lg" aria-hidden="true"><use href="#i-folder"/></svg>
+              <div>
+                <h3>Pistoke</h3>
+                <p class="meta"><span lang="fi">Oma projekti, kehitteillä</span><span lang="en">Personal project, in progress</span></p>
+              </div>
+            </header>
+            <div class="project-body">
+              <p>
+                <span lang="fi">Sähköautojen latauksen hintavertailu koko Suomeen. Tavoitteena on näyttää kartalla lähimmät ja edullisimmat latausasemat samaan tapaan kuin polttoaineiden hintavertailupalvelut tekevät.</span>
+                <span lang="en">A charging price comparison for electric vehicles across Finland. The goal is to show the nearest and cheapest charging stations on a map, the way fuel price comparison services do for petrol.</span>
+              </p>
+              <ul class="tags">
+                <li>React</li><li>TypeScript</li><li>Vite</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project">
+            <header class="project-head">
+              <svg class="ico ico-lg" aria-hidden="true"><use href="#i-doc"/></svg>
+              <div>
+                <h3><span lang="fi">Ajoneuvorekisterin dataputki</span><span lang="en">Vehicle registry data pipeline</span></h3>
+                <p class="meta"><span lang="fi">Kurssityö, data-analytiikka</span><span lang="en">Coursework, data analytics</span></p>
+              </div>
+            </header>
+            <div class="project-body">
+              <p>
+                <span lang="fi">Python-putki, joka käsittelee Traficomin avoimen ajoneuvodatan SQLite-tietokantaan ja visualisoi sen Metabasessa Docker-ympäristössä.</span>
+                <span lang="en">A Python pipeline that processes Traficom’s open vehicle registration data into SQLite and visualises it in Metabase, running in Docker.</span>
+              </p>
+              <ul class="tags">
+                <li>Python</li><li>SQLite</li><li>Metabase</li><li>Docker</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="statusbar" aria-hidden="true">
+          <span class="field"><span lang="fi">6 objektia</span><span lang="en">6 objects</span></span>
+          <span class="field field-grow"><span lang="fi">Omat projektit ja ryhmätyöt</span><span lang="en">Personal and group projects</span></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kandidaatintutkielma: asiakirja -->
+    <section id="tutkielma" class="window win-thesis" data-window aria-labelledby="thesis-title">
+      <div class="titlebar">
+        <svg class="ico" aria-hidden="true"><use href="#i-doc"/></svg>
+        <h2 id="thesis-title" class="title"><span lang="fi">Kandidaatintutkielma</span><span lang="en">Bachelor’s thesis</span></h2>
+        <div class="controls">
+          <button class="ctl" type="button" data-action="min"><svg aria-hidden="true"><use href="#g-min"/></svg><span class="vh"><span lang="fi">Pienennä</span><span lang="en">Minimise</span></span></button>
+          <button class="ctl" type="button" data-action="max"><svg aria-hidden="true"><use href="#g-max"/></svg><span class="vh"><span lang="fi">Suurenna</span><span lang="en">Maximise</span></span></button>
+          <button class="ctl ctl-close" type="button" data-action="close"><svg aria-hidden="true"><use href="#g-close"/></svg><span class="vh"><span lang="fi">Sulje</span><span lang="en">Close</span></span></button>
+        </div>
+      </div>
+      <div class="window-body">
+        <div class="pane page-surround">
+          <div class="page">
+            <p class="thesis-title" lang="fi">DDoS-hyökkäykset Venäjän ja Ukrainan sodassa: tekniikat, kohteet ja vaikutukset</p>
+            <p class="thesis-translation"><span lang="en">DDoS attacks in the Russia–Ukraine war: techniques, targets and impact</span></p>
+            <p>
+              <span lang="fi">Tutkin vertaisarvioitujen lähteiden pohjalta, millaisia hyökkäystyyppejä ja työkaluja sodan yhteydessä on käytetty vuodesta 2014 lähtien, mihin hyökkäykset ovat kohdistuneet ja millaisia vaikutuksia niillä on ollut.</span>
+              <span lang="en">Based on peer-reviewed research, I study which attack types and tools have been used in connection with the war since 2014, what they have targeted and what impact they have had. Written in Finnish.</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Osaaminen: ominaisuudet-ikkuna -->
+    <section id="osaaminen" class="window win-skills" data-window aria-labelledby="skills-title">
+      <div class="titlebar">
+        <svg class="ico" aria-hidden="true"><use href="#i-gear"/></svg>
+        <h2 id="skills-title" class="title"><span lang="fi">Osaaminen</span><span lang="en">Skills</span></h2>
+        <div class="controls">
+          <button class="ctl" type="button" data-action="min"><svg aria-hidden="true"><use href="#g-min"/></svg><span class="vh"><span lang="fi">Pienennä</span><span lang="en">Minimise</span></span></button>
+          <button class="ctl" type="button" data-action="max"><svg aria-hidden="true"><use href="#g-max"/></svg><span class="vh"><span lang="fi">Suurenna</span><span lang="en">Maximise</span></span></button>
+          <button class="ctl ctl-close" type="button" data-action="close"><svg aria-hidden="true"><use href="#g-close"/></svg><span class="vh"><span lang="fi">Sulje</span><span lang="en">Close</span></span></button>
+        </div>
+      </div>
+      <div class="window-body">
+        <dl class="skills">
+          <div>
+            <dt><span lang="fi">Ohjelmointikielet</span><span lang="en">Languages</span></dt>
+            <dd class="field">C++, Python, Java, SQL, Bash</dd>
+          </div>
+          <div>
+            <dt>Web</dt>
+            <dd class="field">HTML, CSS, REST, Leaflet, PHP</dd>
+          </div>
+          <div>
+            <dt>Data</dt>
+            <dd class="field">PostgreSQL, SQLite, pandas, NumPy, Metabase</dd>
+          </div>
+          <div>
+            <dt><span lang="fi">Palvelimet ja tietoturva</span><span lang="en">Infrastructure and security</span></dt>
+            <dd class="field">Linux, Docker, Git, <span lang="fi">VPN, palomuurit, DNS, varmuuskopiointi</span><span lang="en">VPN, firewalls, DNS, backups</span></dd>
+          </div>
+          <div>
+            <dt><span lang="fi">Kielet</span><span lang="en">Spoken</span></dt>
+            <dd class="field"><span lang="fi">suomi (äidinkieli), englanti (kiitettävä)</span><span lang="en">Finnish (native), English (great)</span></dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- Tekoäly: ohjattu toiminto -->
+    <section id="tekoaly" class="window win-ai" data-window aria-labelledby="ai-title">
+      <div class="titlebar">
+        <svg class="ico" aria-hidden="true"><use href="#i-wand"/></svg>
+        <h2 id="ai-title" class="title"><span lang="fi">Tekoälyosaaminen</span><span lang="en">Working with AI</span></h2>
+        <div class="controls">
+          <button class="ctl" type="button" data-action="min"><svg aria-hidden="true"><use href="#g-min"/></svg><span class="vh"><span lang="fi">Pienennä</span><span lang="en">Minimise</span></span></button>
+          <button class="ctl" type="button" data-action="max"><svg aria-hidden="true"><use href="#g-max"/></svg><span class="vh"><span lang="fi">Suurenna</span><span lang="en">Maximise</span></span></button>
+          <button class="ctl ctl-close" type="button" data-action="close"><svg aria-hidden="true"><use href="#g-close"/></svg><span class="vh"><span lang="fi">Sulje</span><span lang="en">Close</span></span></button>
+        </div>
+      </div>
+      <div class="window-body wizard">
+        <div class="wizard-art" aria-hidden="true">
+          <svg class="ico ico-xl"><use href="#i-computer"/></svg>
+          <svg class="ico ico-lg wizard-wand"><use href="#i-wand"/></svg>
+        </div>
+        <div class="wizard-main">
+          <p class="wizard-intro">
+            <span lang="fi">Käytän tekoälyä päivittäin osana ohjelmointia, opiskelua ja omia projektejani. Hyödynnän sitä koodin kirjoittamisessa ja tarkastamisessa, vianetsinnässä, uusien tekniikoiden opettelussa, arkkitehtuurin suunnittelussa sekä tiedonhaussa ja tekstien työstämisessä.</span>
+            <span lang="en">I use AI every day in programming, studying and my own projects. I use it to write and review code, debug, learn new technologies, plan architecture, search for information and work on texts.</span>
+          </p>
+          <p>
+            <span lang="fi">Pidän tekoälyä työkaluna, en korvikkeena omalle osaamiselle. Annan sille selkeän tehtävän, riittävästi taustatietoa ja rajaukset, ja käyn tuloksen aina itse läpi. Luen koodin ennen kuin ajan sen, testaan muutokset ja varmistan, että ymmärrän, miksi ratkaisu toimii. Tiedonhaussa pyrin lähdekritiikkiin ja tarkistan väitteet lopussa itse. Noudatan yliopiston ja työpaikan tekoälyohjeita enkä anna sille salassa pidettävää tietoa.</span>
+            <span lang="en">I treat AI as a tool, not a substitute for my own skills. I give it a clear task, enough context and constraints, and I always review the result myself. I read code before running it, test changes and make sure I understand why a solution works. When researching, I verify sources myself, because AI can be confidently wrong. I follow university and workplace AI guidelines and never share confidential information with it.</span>
+          </p>
+          <p>
+            <span lang="fi">Käytän tekoälyä, koska sen avulla pääsen nopeammin kiinni uusiin aiheisiin ja saan aikaa siihen, mikä vaatii omaa harkintaa: ongelman määrittelyyn, ratkaisujen arviointiin ja lopputuloksen laatuun. Pidän tekoälyn hallittua käyttöä taitona, jota kehitän samalla tavalla kuin muitakin työkaluja.</span>
+            <span lang="en">I use AI because it helps me get up to speed with new topics faster and frees time for the work that needs my own judgement: defining the problem, evaluating solutions and the quality of the end result. I see using AI well as a skill that I develop like any other tool.</span>
+          </p>
+          <dl class="wizard-tools">
+            <dt><span lang="fi">Työkalut</span><span lang="en">Tools</span></dt>
+            <dd class="field">Claude (claude.ai <span lang="fi">ja</span><span lang="en">and</span> Claude Code)</dd>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- Koulutus ja kokemus: yksityiskohtanäkymä -->
+    <section id="kokemus" class="window win-experience" data-window aria-labelledby="experience-title">
+      <div class="titlebar">
+        <svg class="ico" aria-hidden="true"><use href="#i-cards"/></svg>
+        <h2 id="experience-title" class="title"><span lang="fi">Koulutus ja kokemus</span><span lang="en">Education and experience</span></h2>
+        <div class="controls">
+          <button class="ctl" type="button" data-action="min"><svg aria-hidden="true"><use href="#g-min"/></svg><span class="vh"><span lang="fi">Pienennä</span><span lang="en">Minimise</span></span></button>
+          <button class="ctl" type="button" data-action="max"><svg aria-hidden="true"><use href="#g-max"/></svg><span class="vh"><span lang="fi">Suurenna</span><span lang="en">Maximise</span></span></button>
+          <button class="ctl ctl-close" type="button" data-action="close"><svg aria-hidden="true"><use href="#g-close"/></svg><span class="vh"><span lang="fi">Sulje</span><span lang="en">Close</span></span></button>
+        </div>
+      </div>
+      <div class="window-body">
+        <div class="pane pane-table">
+          <table class="details">
+            <thead>
+              <tr>
+                <th scope="col"><span lang="fi">Nimi</span><span lang="en">Name</span></th>
+                <th scope="col"><span lang="fi">Paikka ja aika</span><span lang="en">Where and when</span></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><h3><svg class="ico" aria-hidden="true"><use href="#i-doc"/></svg><span lang="fi">Tietojenkäsittelytieteet kandidaatintutkinto</span><span lang="en">Computer Science, bachelor’s studies</span></h3></td>
+                <td><span lang="fi">Tampereen yliopisto, sivuaineena kauppatieteet</span><span lang="en">Tampere University, minor in Business</span></td>
+              </tr>
+              <tr>
+                <td><h3><svg class="ico" aria-hidden="true"><use href="#i-cards"/></svg><span lang="fi">Myyjä</span><span lang="en">Sales assistant</span></h3></td>
+                <td><span lang="fi">K-supermarket Ratina, 6/2026–</span><span lang="en">Retail, 6/2026–</span></td>
+              </tr>
+              <tr>
+                <td><h3><svg class="ico" aria-hidden="true"><use href="#i-cards"/></svg><span lang="fi">Myyjä</span><span lang="en">Sales assistant</span></h3></td>
+                <td><span lang="fi">K-supermarket, K-market, 2021 - 2023</span><span lang="en">K-supermarker, K-market, 2021 - 2023</span></td>
+              </tr>
+              <tr>
+                <td><h3><svg class="ico" aria-hidden="true"><use href="#i-cards"/></svg><span lang="fi">Taksinkuljettaja</span><span lang="en">Taxi driver</span></h3></td>
+                <td>Tatsilla Oy, 2022 - 2026</td>
+              </tr>
+              <tr>
+                <td><h3><svg class="ico" aria-hidden="true"><use href="#i-cards"/></svg><span lang="fi">Metsätyöntekijä</span><span lang="en">Tree planting</span></h3></td>
+                <td><span lang="fi">Kausityö 2026</span><span lang="en">Seasonal work 2026</span></td>
+              </tr>
+              <tr>
+                <td><h3><svg class="ico" aria-hidden="true"><use href="#i-cards"/></svg><span lang="fi">Reserviupseerikoulutus</span><span lang="en">Reserve officer training</span></h3></td>
+                <td><span lang="fi">Reserviupseerikoulu, Hamina 2022</span><span lang="en">Reserve Officer School, Hamina 2022</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="statusbar" aria-hidden="true">
+          <span class="field field-grow"><span lang="fi">6 objektia</span><span lang="en">6 objects</span></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Yhteystiedot: valintaikkuna -->
+    <section id="yhteys" class="window win-contact" data-window aria-labelledby="contact-title">
+      <div class="titlebar">
+        <svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg>
+        <h2 id="contact-title" class="title"><span lang="fi">Yhteystiedot</span><span lang="en">Contact</span></h2>
+        <div class="controls">
+          <button class="ctl" type="button" data-action="min"><svg aria-hidden="true"><use href="#g-min"/></svg><span class="vh"><span lang="fi">Pienennä</span><span lang="en">Minimise</span></span></button>
+          <button class="ctl" type="button" data-action="max"><svg aria-hidden="true"><use href="#g-max"/></svg><span class="vh"><span lang="fi">Suurenna</span><span lang="en">Maximise</span></span></button>
+          <button class="ctl ctl-close" type="button" data-action="close"><svg aria-hidden="true"><use href="#g-close"/></svg><span class="vh"><span lang="fi">Sulje</span><span lang="en">Close</span></span></button>
+        </div>
+      </div>
+      <div class="window-body dialog">
+        <div class="dialog-message">
+          <svg class="ico ico-xl" aria-hidden="true"><use href="#i-mail"/></svg>
+          <p>
+            <span lang="fi">Kerron mielelläni lisää projekteista. Lähetä viestiä sähköpostilla tai LinkedInissä.</span>
+            <span lang="en">Happy to tell you more about any of these projects. Reach me by email or on LinkedIn.</span>
+          </p>
+        </div>
+        <ul class="dialog-buttons">
+          <li><a class="btn btn-default" href="mailto:toivaneatte@gmail.com">toivaneatte@gmail.com</a></li>
+          <li><a class="btn" href="https://www.linkedin.com/in/atte-toivanen-354338205/">LinkedIn</a></li>
+          <li><a class="btn" href="https://github.com/toivaneatte">GitHub</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="foot">
+      <p>
+        <span lang="fi">Sivu on tehty ilman kehyksiä, eikä se käytä evästeitä tai seurantaa.</span>
+        <span lang="en">Built without frameworks. No cookies, no tracking.</span>
+      </p>
+    </footer>
+  </main>
+
+  <!-- Käynnistä-valikko -->
+  <nav class="startmenu" id="startmenu" aria-label="Sivun osiot" hidden>
+    <div class="startmenu-banner" aria-hidden="true">Atte Toivanen</div>
+    <ul>
+      <li><a href="#tervetuloa" data-open="tervetuloa"><svg class="ico ico-lg" aria-hidden="true"><use href="#i-computer"/></svg><span lang="fi">Tervetuloa</span><span lang="en">Welcome</span></a></li>
+      <li><a href="#reitti" data-open="reitti"><svg class="ico ico-lg" aria-hidden="true"><use href="#i-dos"/></svg><span lang="fi">Komentokehote</span><span lang="en">Command prompt</span></a></li>
+      <li><a href="#projektit" data-open="projektit"><svg class="ico ico-lg" aria-hidden="true"><use href="#i-folder"/></svg><span lang="fi">Projektit</span><span lang="en">Projects</span></a></li>
+      <li><a href="#tutkielma" data-open="tutkielma"><svg class="ico ico-lg" aria-hidden="true"><use href="#i-doc"/></svg><span lang="fi">Kandidaatintutkielma</span><span lang="en">Bachelor’s thesis</span></a></li>
+      <li><a href="#osaaminen" data-open="osaaminen"><svg class="ico ico-lg" aria-hidden="true"><use href="#i-gear"/></svg><span lang="fi">Osaaminen</span><span lang="en">Skills</span></a></li>
+      <li><a href="#tekoaly" data-open="tekoaly"><svg class="ico ico-lg" aria-hidden="true"><use href="#i-wand"/></svg><span lang="fi">Tekoäly</span><span lang="en">AI</span></a></li>
+      <li><a href="#kokemus" data-open="kokemus"><svg class="ico ico-lg" aria-hidden="true"><use href="#i-cards"/></svg><span lang="fi">Koulutus ja kokemus</span><span lang="en">Education and experience</span></a></li>
+      <li class="sep" aria-hidden="true"></li>
+      <li><a href="#yhteys" data-open="yhteys"><svg class="ico ico-lg" aria-hidden="true"><use href="#i-mail"/></svg><span lang="fi">Yhteystiedot</span><span lang="en">Contact</span></a></li>
+    </ul>
+  </nav>
+
+  <!-- Tehtäväpalkki -->
+  <div class="taskbar">
+    <button class="btn start" type="button" id="start" aria-expanded="false" aria-controls="startmenu">
+      <svg class="ico" aria-hidden="true"><use href="#i-computer"/></svg>
+      <span lang="fi">Käynnistä</span><span lang="en">Start</span>
+    </button>
+    <span class="taskbar-sep" aria-hidden="true"></span>
+    <div class="tasks" aria-hidden="true">
+      <a class="task" href="#tervetuloa" data-task="tervetuloa" tabindex="-1"><svg class="ico"><use href="#i-computer"/></svg><span lang="fi">Tervetuloa</span><span lang="en">Welcome</span></a>
+      <a class="task" href="#reitti" data-task="reitti" tabindex="-1"><svg class="ico"><use href="#i-dos"/></svg><span lang="fi">Komentokehote</span><span lang="en">Command prompt</span></a>
+      <a class="task" href="#projektit" data-task="projektit" tabindex="-1"><svg class="ico"><use href="#i-folder"/></svg><span lang="fi">Projektit</span><span lang="en">Projects</span></a>
+      <a class="task" href="#tutkielma" data-task="tutkielma" tabindex="-1"><svg class="ico"><use href="#i-doc"/></svg><span lang="fi">Tutkielma</span><span lang="en">Thesis</span></a>
+      <a class="task" href="#osaaminen" data-task="osaaminen" tabindex="-1"><svg class="ico"><use href="#i-gear"/></svg><span lang="fi">Osaaminen</span><span lang="en">Skills</span></a>
+      <a class="task" href="#tekoaly" data-task="tekoaly" tabindex="-1"><svg class="ico"><use href="#i-wand"/></svg><span lang="fi">Tekoäly</span><span lang="en">AI</span></a>
+      <a class="task" href="#kokemus" data-task="kokemus" tabindex="-1"><svg class="ico"><use href="#i-cards"/></svg><span lang="fi">Kokemus</span><span lang="en">Experience</span></a>
+      <a class="task" href="#yhteys" data-task="yhteys" tabindex="-1"><svg class="ico"><use href="#i-mail"/></svg><span lang="fi">Yhteystiedot</span><span lang="en">Contact</span></a>
+    </div>
+    <div class="tray">
+      <button class="tray-lang" type="button" id="lang-toggle" data-lang-toggle aria-label="In English">
+        <span lang="fi">FI</span><span lang="en">EN</span>
+      </button>
+      <time class="clock" id="clock"></time>
+    </div>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
